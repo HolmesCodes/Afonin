@@ -1,3 +1,16 @@
 .DS_Store
 *.tmp
 .obsidian/
+
+# Секретные файлы с паролями
+secrets.md
+*.secret
+*.key
+*.pem
+.env
+.venv
+
+# Файлы с паролями в любых папках
+**/secrets.md
+**/passwords.txt
+**/*.secret
