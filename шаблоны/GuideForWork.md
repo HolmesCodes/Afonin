@@ -113,7 +113,7 @@ git checkout dev
 git branch -d имя_ветки          # локально
 git push origin --delete имя_ветки # на GitHub
 ```
-⚠️ Что делать, если Git ругается
+## ⚠️ Что делать, если Git ругается
 ### Ситуация 1: fatal: not a git repository
 Проблема: Ты не в папке репозитория.  
 Решение: Перейди в папку notes:
