@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0827D19-8A22-42E2-87C6-5297B581EFEC}|\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.vcxproj|C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0827D19-8A22-42E2-87C6-5297B581EFEC}|\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.vcxproj|solutionrelative:\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0827D19-8A22-42E2-87C6-5297B581EFEC}|\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.vcxproj|C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\SimpleTimer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0827D19-8A22-42E2-87C6-5297B581EFEC}|\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.vcxproj|solutionrelative:SimpleTimer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0827D19-8A22-42E2-87C6-5297B581EFEC}|\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.vcxproj|C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\SimpleTimer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0827D19-8A22-42E2-87C6-5297B581EFEC}|\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.vcxproj|solutionrelative:SimpleTimer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp",
+              "DocumentMoniker": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp",
+              "RelativeDocumentMoniker": "\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp",
+              "ToolTip": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp",
+              "RelativeToolTip": "\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C.cpp",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-10T18:42:59.662Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleTimer.h",
+              "DocumentMoniker": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\SimpleTimer.h",
+              "RelativeDocumentMoniker": "SimpleTimer.h",
+              "ToolTip": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\SimpleTimer.h",
+              "RelativeToolTip": "SimpleTimer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-12T20:31:32.713Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleTimer.cpp",
+              "DocumentMoniker": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\SimpleTimer.cpp",
+              "RelativeDocumentMoniker": "SimpleTimer.cpp",
+              "ToolTip": "C:\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043E\u044F \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\\u041C\u043D\u043E\u0433\u043E\u043F\u043E\u0442\u043E\u0447\u043D\u043E\u0441\u0442\u044C\\SimpleTimer.cpp",
+              "RelativeToolTip": "SimpleTimer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-12T20:32:11.44Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
