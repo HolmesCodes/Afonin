@@ -9,6 +9,7 @@ secrets.md
 *.pem
 .env
 .venv
+**/.vs/
 
 # Файлы с паролями в любых папках
 **/secrets.md
