@@ -1,4 +1,0 @@
-﻿  leetcode.cpp
-C:\Подготовка\leetcode\leetcode\leetcode\leetcode.cpp(20,28): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-C:\Подготовка\leetcode\leetcode\leetcode\leetcode.cpp(32,35): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
-  leetcode.vcxproj -> C:\Подготовка\leetcode\leetcode\x64\Debug\leetcode.exe

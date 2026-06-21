@@ -9,9 +9,45 @@ secrets.md
 *.pem
 .env
 .venv
-**/.vs/
 
 # Файлы с паролями в любых папках
 **/secrets.md
 **/passwords.txt
 **/*.secret
+
+# Visual Studio files
+.vs/
+*.ipch
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userosscache
+*.vcxproj.user
+*.dbmdl
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.obj
+*.log
+
+# Git
+.git/
+
+# IDE specific
+.idea/
+.vscode/
+
+# Only keep source files
+# Но НЕ удаляйте папки с кодом - только временные файлы
