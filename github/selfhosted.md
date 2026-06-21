@@ -11,6 +11,7 @@
 | **[Coolify](https://github.com/coollabsio/coolify)** | Деплой приложений, баз данных и сервисов на своём сервере без DevOps-экспертизы. Альтернатива Heroku и Vercel. |
 | **[Supabase](https://github.com/supabase/supabase)** | Полноценная альтернатива Firebase на PostgreSQL. Из коробки: авторизация, хранилище, real-time подписки и REST API. |
 | **[Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)** | Огромный каталог self-hosted альтернатив облачным сервисам. Тысячи решений с описаниями и лицензиями. |
+| **[Meshery](https://github.com/meshery/meshery)** | Self-hosted платформа для управления Kubernetes-инфраструктурой и облачными сервисами. GitOps-подход, визуальный редактор, 380+ интеграций. |
 
 ---
 
@@ -20,6 +21,9 @@
 |--------|----------|
 | **[Nextcloud](https://github.com/nextcloud/server)** | Self-hosted облачное хранилище. Альтернатива Google Drive и Dropbox. Синхронизация, офисный редактор, календарь и контакты. |
 | **[Cloudreve](https://github.com/cloudreve/cloudreve)** | Система управления файлами с поддержкой нескольких провайдеров: локальный диск, OneDrive, S3 и другие. Есть WebDAV и ссылки с сроком действия. |
+| **[ownCloud](https://github.com/owncloud/core)** | Серверная часть ownCloud 10 (Classic). Хранение, синхронизация и обмен файлами. Поддерживает WebDAV, CalDAV, CardDAV, шифрование и REST API. |
+| **[Seafile](https://github.com/haiwen/seafile)** | Self-hosted облачное хранилище с библиотеками, клиентским шифрованием и блочной синхронизацией. Поддерживает выборочную синхронизацию папок. |
+| **[FileBrowser](https://github.com/filebrowser/filebrowser)** | Веб-интерфейс для управления файлами на сервере. Загрузка, удаление, редактирование через браузер. Единый бинарный файл. |
 
 ---
 
