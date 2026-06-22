@@ -4,6 +4,7 @@
 .DS_Store
 Thumbs.db
 *.tmp
+<<<<<<< HEAD
 *.log
 *.swp
 *.swo
@@ -12,12 +13,18 @@ Thumbs.db
 # ============================================
 # СЕКРЕТЫ И ПАРОЛИ
 # ============================================
+=======
+.obsidian/
+
+# Секретные файлы с паролями
+>>>>>>> origin/dev
 secrets.md
 *.secret
 *.key
 *.pem
 .env
 .venv
+<<<<<<< HEAD
 **/secrets.md
 **/passwords.txt
 **/*.secret
@@ -177,3 +184,10 @@ __pycache__/
 # ============================================
 # .cpp, .h, .hpp, .cxx, .sln, .vcxproj — ОСТАВЛЯЕМ
 # Всё остальное — ИГНОРИРУЕМ
+=======
+
+# Файлы с паролями в любых папках
+**/secrets.md
+**/passwords.txt
+**/*.secret
+>>>>>>> origin/dev
