@@ -1,16 +1,193 @@
+# ============================================
+# СИСТЕМНЫЕ ФАЙЛЫ
+# ============================================
 .DS_Store
+Thumbs.db
 *.tmp
+<<<<<<< HEAD
+*.log
+*.swp
+*.swo
+*~
+
+# ============================================
+# СЕКРЕТЫ И ПАРОЛИ
+# ============================================
+=======
 .obsidian/
 
 # Секретные файлы с паролями
+>>>>>>> origin/dev
 secrets.md
 *.secret
 *.key
 *.pem
 .env
 .venv
+<<<<<<< HEAD
+**/secrets.md
+**/passwords.txt
+**/*.secret
+
+# ============================================
+# VISUAL STUDIO (ВЕСЬ МУСОР)
+# ============================================
+
+# Папки с бинарниками и сборкой
+.vs/
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+lib/
+build/
+out/
+*.ipch
+**/.vs/
+
+# Временные папки, которые VS создаёт автоматически
+**/ConsoleA.*/
+**/*.aeeb53b2/
+**/*.8ae4e990/
+**/*.61abac20/
+**/*.46756e1c/
+
+# Файлы сборки и отладки
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.obj
+*.log
+*.tlog
+*.idb
+*.recipe
+*.ipch
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userosscache
+*.vcxproj.user
+*.dbmdl
+*.vsp
+*.vspx
+*.vsidx
+*.pch
+*.bsc
+*.res
+*.rc
+*.tlb
+*.tlh
+*.rsp
+*.manifest
+*.dep
+*.depend
+*.build.msg
+*.lastbuildstate
+*.Cache
+*.tmp
+*.suo
+*.userprefs
+*.pidb
+*.suo
+*.user
+*.webinfo
+*.vwd
+*.vwdproj
+*.vstemplate
+*.vspscc
+*.vssscc
+*.vsps
+*.vsmdi
+*.vsmd
+*.vsp
+*.vspx
+*.vsm
+*.vswp
+*.vsps
+*.vsscc
+*.vssscc
+*.vsmacros
+*.vsp
+*.vspx
+*.vsps
+*.vspscc
+*.vssscc
+*.vsps
+*.vsscc
+*.vssscc
+
+# ============================================
+# СРЕДЫ РАЗРАБОТКИ (VS Code, Qt Creator, etc.)
+# ============================================
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.user
+*.creator.user*
+*.creator.files
+*.creator.includes
+*.config
+*.creator
+*.user
+*.creator.user
+*.creator.files
+*.creator.includes
+*.config
+
+# ============================================
+# QT CREATOR (если будете использовать)
+# ============================================
+*.user
+*.creator.user*
+*.creator.files
+*.creator.includes
+*.config
+*.creator
+*.user
+*.creator.user
+*.creator.files
+*.creator.includes
+*.config
+
+# ============================================
+# ТЕСТОВЫЕ ФАЙЛЫ (опционально)
+# ============================================
+# Если хотите сохранить inlet.in / outlet.out — удалите эти строки
+*.in
+*.out
+
+# ============================================
+# СИСТЕМНЫЕ ПАПКИ (все бинарники)
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# ============================================
+# ИТОГ: СОХРАНЯЕМ ТОЛЬКО ИСХОДНИКИ
+# ============================================
+# .cpp, .h, .hpp, .cxx, .sln, .vcxproj — ОСТАВЛЯЕМ
+# Всё остальное — ИГНОРИРУЕМ
+=======
 
 # Файлы с паролями в любых папках
 **/secrets.md
 **/passwords.txt
 **/*.secret
+>>>>>>> origin/dev
