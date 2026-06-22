@@ -4,7 +4,6 @@
 .DS_Store
 Thumbs.db
 *.tmp
-<<<<<<< HEAD
 *.log
 *.swp
 *.swo
@@ -13,18 +12,18 @@ Thumbs.db
 # ============================================
 # СЕКРЕТЫ И ПАРОЛИ
 # ============================================
-=======
+
 .obsidian/
 
 # Секретные файлы с паролями
->>>>>>> origin/dev
+
 secrets.md
 *.secret
 *.key
 *.pem
 .env
 .venv
-<<<<<<< HEAD
+
 **/secrets.md
 **/passwords.txt
 **/*.secret
