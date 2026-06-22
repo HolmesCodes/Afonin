@@ -224,3 +224,30 @@ tar -xzvf archive.tar.gz
 
 # Скопировать папку с одного сервера на другой
 rsync -av /local/folder/ user@ip:/remote/folder/
+
+```
+## 🛠️ Инструменты для Linux
+
+### Уведомления
+
+| Проект | Описание |
+|--------|----------|
+| **[Dunst](https://github.com/dunst-project/dunst)** | Лёгкий демон уведомлений для Linux. Настройка шрифтов, иконок, тайм-аутов и правил. Работает без DE. |
+
+### Управление приложениями
+
+| Проект | Описание |
+|--------|----------|
+| **[AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)** | Утилита для интеграции AppImage-файлов в систему. Добавляет в меню приложений, не требует ручного `chmod +x`. |
+
+---
+
+## 📚 Полезные ссылки
+
+- [Официальная документация Ubuntu](https://help.ubuntu.com/)
+- [Linux man pages](https://man7.org/linux/man-pages/)
+- [ExplainShell — разбор команд](https://explainshell.com/)
+
+---
+
+**Лицензия:** Свободно используй, дополняй и делись.
