@@ -13,8 +13,8 @@ Thumbs.db
 # СЕКРЕТЫ И ПАРОЛИ
 # ============================================
 
-.obsidian/
 personal-hotkeys.md
+daily-log.md
 *.personal.md
 
 # Секретные файлы с паролями
@@ -192,3 +192,12 @@ __pycache__/
 **/passwords.txt
 **/*.secret
 >>>>>>> origin/dev
+
+
+
+# Obsidian
+.obsidian/
+.makemd/
+.space/
+.trash/
+Tags/
