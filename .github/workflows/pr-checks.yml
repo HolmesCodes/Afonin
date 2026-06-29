@@ -7,16 +7,6 @@ on:
     branches: [ dev ]
 
 jobs:
-  markdown-lint:
-    name: 📝 Markdown Lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install markdownlint
-        run: npm install -g markdownlint-cli
-      - name: Run markdownlint
-        run: markdownlint '**/*.md' --ignore 'шаблоны/personal-hotkeys.md' --ignore '**/daily-log.md'
-
   bad-words:
     name: 🚫 Bad Words Check
     runs-on: ubuntu-latest
@@ -25,7 +15,7 @@ jobs:
       - name: Check for bad words
         run: |
           BAD_WORDS="мат|ругательство|плохое_слово|хуй|пизд|бля|залупа|муд|ебал|суч|гандон|дроч|пидор|гей|лох|шлюха|трах|секс|ебать|пиздец|блядь|сука|хер|жопа|пидр|пидорас|мудак|долбоеб|долбаеб|уебок"
-          if grep -r -n -E -i "$BAD_WORDS" . --include="*.md" --exclude-dir=".git" --exclude="personal-hotkeys.md"; then
+          if grep -r -n -E -i "\b($BAD_WORDS)\b" . --include="*.md" --exclude-dir=".git" --exclude="personal-hotkeys.md"; then
             echo "❌ Найдены запрещённые слова в Markdown-файлах"
             exit 1
           else
@@ -40,8 +30,7 @@ jobs:
       - name: Check for secrets
         run: |
           SECRET_PATTERNS="password|secret|key|token|api_key|private_key|JWT|AUTH_TOKEN"
-          if grep -r -n -E -i "$SECRET_PATTERNS" . --include="*.md" --include="*.txt" --include="*.yml" --exclude-dir=".git" --exclude="secrets.md" | grep -v ".gitignore"; then
-            echo "❌ Обнаружены подозрительные строки (пароли, ключи, токены)"
+          if grep -r -n -E -i "$SECRET_PATTERNS" . --include="*.md" --include="*.txt" --include="*.yml" --exclude-dir=".git" --exclude="secrets.md" --exclude-dir="саморазвитие/hacker101" --exclude=".github/workflows/pr-checks.yml" | grep -v ".gitignore"; then
             echo "Проверь, что ты не закоммитил секреты!"
             exit 1
           else

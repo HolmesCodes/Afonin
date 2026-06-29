@@ -62,9 +62,9 @@ Most reported data breaches are caused by the use of weak, default, or stolen pa
 **Consider Unique Usernames** | Advanced | Having different passwords for each account is a good first step, but if you also use a unique username, email, or phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#mail-forwarding)). Usernames are easier since you can use your password manager to generate, store, and auto-fill these. Virtual phone numbers can be generated through your VOIP provider.
 
 ### Recommended Software
+
 - [Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
 - [2-Factor Authentication](https://awesome-privacy.xyz/essentials/2-factor-authentication)
-
 
 ## Web Browsing
 
@@ -117,10 +117,10 @@ This section outlines the steps you can take, to be better protected from threat
 **Disable JavaScript** | Advanced | Many modern web apps are JavaScript-based, so disabling it will greatly decrease your browsing experience. But if you really want to go all out, then it will really reduce your attack surface.
 
 ### Recommended Software
+
 - [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers)
 - [Browser Extensions](https://github.com/Lissy93/awesome-privacy#browser-extensions)
 - [Browser & Bookmark Sync](https://github.com/Lissy93/awesome-privacy#browser-sync)
-
 
 ## Email
 
@@ -155,15 +155,13 @@ The big companies providing "free" email service, don't have a good reputation f
 **Maintain IP Blacklist** | Advanced | For self-hosted mail servers, you can improve spam filters and harden security, through maintaining an up-to-date local IP blacklist and a spam URI realtime block lists to filter out malicious hyperlinks.
 
 ### Recommended Software
+
 - [Secure Email Providers](https://github.com/Lissy93/awesome-privacy#encrypted-email)
 - [Mail Forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)
 - [Pre-Configured Mail Servers](https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers)
 - [Email Clients](https://github.com/Lissy93/awesome-privacy#email-clients)
 
-
 ## Messaging
-
-
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -188,15 +186,14 @@ The big companies providing "free" email service, don't have a good reputation f
 **Consider a Decentralized Platform** | Advanced | If all data flows through a central provider, you have to trust them with your data and meta-data. You cannot verify that the system running is authentic without back doors.
 
 ### Recommended Software
+
 - [Secure Messaging Apps](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
 - [P2P Messaging Platforms](https://github.com/Lissy93/awesome-privacy#p2p-messaging)
-
 
 ## Social Media
 
 Online communities have existed since the invention of the internet, and give people around the world the opportunity to connect, communicate and share. Although these networks are a great way to promote social interaction and bring people together, that have a dark side - there are some serious [Privacy Concerns with Social Networking Services](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services), and these social networking sites are owned by private corporations, and that they make their money by collecting data about individuals and selling that data on, often to third party advertisers.
 Secure your account, lock down your privacy settings, but know that even after doing so, all data intentionally and non-intentionally uploaded is effectively public. If possible, avoid using conventional social media networks.
-
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -217,16 +214,15 @@ Secure your account, lock down your privacy settings, but know that even after d
 **Don’t have any social media accounts** | Advanced | Social media is fundamentally un-private, so for maximum online security and privacy, avoid using any mainstream social networks.
 
 ### Recommended Software
+
 - [Alternative Social Media](https://github.com/Lissy93/awesome-privacy#social-networks)
 - [Alternative Video Platforms](https://github.com/Lissy93/awesome-privacy#video-platforms)
 - [Alternative Blogging Platforms](https://github.com/Lissy93/awesome-privacy#blogging-platforms)
 - [News Readers and Aggregation](https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation)
 
-
 ## Networks
 
 This section covers how you connect your devices to the internet securely, including configuring your router and setting up a VPN.
-
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -257,6 +253,7 @@ This section covers how you connect your devices to the internet securely, inclu
 **Disable WiFi on all Devices** | Advanced | Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and connect each device via Ethernet.
 
 ### Recommended Software
+
 - [Virtual Private Networks](https://github.com/Lissy93/awesome-privacy#virtual-private-networks)
 - [Mix Networks](https://github.com/Lissy93/awesome-privacy#mix-networks)
 - [Router Firmware](https://github.com/Lissy93/awesome-privacy#router-firmware)
@@ -266,7 +263,6 @@ This section covers how you connect your devices to the internet securely, inclu
 - [Network Analysis Tools](https://github.com/Lissy93/awesome-privacy#network-analysis)
 - [Self-Hosted Network Security Tools](https://github.com/Lissy93/awesome-privacy#self-hosted-network-security)
 
-
 ## Mobile Devices
 
 Smart phones have revolutionized so many aspects of life and brought the world to our fingertips. For many of us, smart phones are our primary means of communication, entertainment and access to knowledge. But while they've brought convenience to whole new level, there's some ugly things going on behind the screen.
@@ -274,7 +270,6 @@ Geo-tracking is used to trace our every move, and we have little control over wh
 Using a smart phone generates a lot of data about you- from information you intentionally share, to data silently generated from your actions. It can be scary to see what Google, Microsoft, Apple and Facebook know about us- sometimes they know more than our closest family. It's hard to comprehend what your data will reveal, especially in conjunction with other data.
 This data is used for [far more than just advertising](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) - more often it's used to rate people for finance, insurance and employment. Targeted ads can even be used for fine-grained surveillance (see [ADINT](https://adint.cs.washington.edu))
 More of us are concerned about how [governments use collect and use our smart phone data](https://www.statista.com/statistics/373916/global-opinion-online-monitoring-government/), and rightly so, federal agencies often [request our data from Google](https://www.statista.com/statistics/273501/global-data-requests-from-google-by-federal-agencies-and-governments/), [Facebook](https://www.statista.com/statistics/287845/global-data-requests-from-facebook-by-federal-agencies-and-governments/), Apple, Microsoft, Amazon, and other tech companies. Sometimes requests are made in bulk, returning detailed information on everybody within a certain geo-fence, [often for innocent people](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html). And this doesn't include all of the internet traffic that intelligence agencies around the world have unhindered access to.
-
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -303,15 +298,14 @@ More of us are concerned about how [governments use collect and use our smart ph
 **Consider running a custom ROM (Android)** | Advanced | If you're concerned about your device manufacturer collecting too much personal information, consider a privacy-focused custom ROM.
 
 ### Recommended Software
+
 - [Mobile Apps, for Security + Privacy](https://github.com/Lissy93/awesome-privacy#mobile-apps)
 - [Encrypted Messaging](https://github.com/Lissy93/awesome-privacy#encrypted-messaging)
 - [Mobile Operation Systems](https://github.com/Lissy93/awesome-privacy#mobile-operating-systems)
 
-
 ## Personal Computers
 
 Although Windows and OS X are easy to use and convenient, they both are far from secure. Your OS provides the interface between hardware and your applications, so if compromised can have detrimental effects.
-
 
 **Security** | **Priority** | **Details and Hints**
 --- | --- | ---
@@ -352,6 +346,7 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 **Use Canary Tokens** | Advanced | Deploy canary tokens to detect unauthorized access to your files or emails faster and gather information about the intruder.
 
 ### Recommended Software
+
 - [Secure Operating Systems](https://github.com/Lissy93/awesome-privacy#desktop-operating-systems)
 - [Linux Defenses](https://github.com/Lissy93/awesome-privacy#linux-defences)
 - [Windows Defenses](https://github.com/Lissy93/awesome-privacy#windows-defences)
@@ -359,7 +354,6 @@ Although Windows and OS X are easy to use and convenient, they both are far from
 - [Anti-Malware](https://github.com/Lissy93/awesome-privacy#anti-malware)
 - [Firewalls](https://github.com/Lissy93/awesome-privacy#firewalls-1)
 - [File Encryption](https://github.com/Lissy93/awesome-privacy#file-encryption)
-
 
 ## Smart Home
 
@@ -384,9 +378,9 @@ The most privacy-respecting option, would be to not use "smart" internet-connect
 **Assess risks** | Advanced | Consider the privacy implications for all household members and adjust device settings for security and privacy, such as disabling devices at certain times.
 
 ### Recommended Software
+
 - [Home Automation](https://github.com/Lissy93/awesome-privacy#home-automation)
 - [AI Voice Assistants](https://github.com/Lissy93/awesome-privacy#ai-voice-assistants)
-
 
 ## Personal Finance
 
@@ -407,13 +401,13 @@ Note about credit cards: Credit cards have technological methods in place to det
 **Use alternate delivery address** | Advanced | Opt for deliveries to non-personal addresses such as PO Boxes, forwarding addresses, or local pickup locations to avoid linking purchases directly to you.
 
 ### Recommended Software
+
 - [Virtual Credit Cards](https://github.com/Lissy93/awesome-privacy#virtual-credit-cards)
 - [Cryptocurrencies](https://github.com/Lissy93/awesome-privacy#cryptocurrencies)
 - [Crypto Wallets](https://github.com/Lissy93/awesome-privacy#crypto-wallets)
 - [Crypto Exchanges](https://github.com/Lissy93/awesome-privacy#crypto-exchanges)
 - [Other Payment Methods](https://github.com/Lissy93/awesome-privacy#other-payment-methods)
 - [Budgeting Tools](https://github.com/Lissy93/awesome-privacy#budgeting-tools)
-
 
 ## Human Aspect
 
@@ -442,7 +436,6 @@ Many data breaches, hacks and attacks are caused by human error. The following l
 **WhoIs Privacy Guard** | Advanced | Use WhoIs Privacy Guard for domain registrations to protect your personal information from public searches.
 **Use a forwarding address** | Advanced | Use a PO Box or forwarding address for mail to prevent companies from knowing your real address, adding a layer of privacy protection.
 **Use anonymous payment methods** | Advanced | Opt for anonymous payment methods like cryptocurrencies to avoid entering identifiable information online.
-
 
 ## Physical Security
 
@@ -477,16 +470,16 @@ personal documents to trace the source of a breach.
 **Reduce Night Vision Exposure** | Advanced | Use IR light sources or reflective glasses to obstruct night vision cameras.
 **Protect your DNA** | Advanced | Avoid sharing DNA with heritage websites and be cautious about leaving DNA traces.
 
-
-
 <!-- checklist-end -->
 
 ----
 
-#### There's an interactive version!
+#### There's an interactive version
+
 - [Digital Defense](https://digital-defense.io) - View details, check items of, and track your progress
 
 #### Other Awesome Security Lists
+
 - @sbilly/[awesome-security](https://github.com/sbilly/awesome-security)
 - @0x4D31/[awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection)
 - @hslatman/[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
