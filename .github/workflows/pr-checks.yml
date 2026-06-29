@@ -1,0 +1,81 @@
+name: PR Quality Checks
+
+on:
+  pull_request:
+    branches: [ main, dev ]
+  push:
+    branches: [ dev ]
+
+jobs:
+  bad-words:
+    name: 🚫 Bad Words Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for bad words
+        run: |
+          BAD_WORDS="мат|ругательство|плохое_слово|хуй|пизд|бля|залупа|муд|ебал|суч|гандон|дроч|пидор|гей|лох|шлюха|трах|секс|ебать|пиздец|блядь|сука|хер|жопа|пидр|пидорас|мудак|долбоеб|долбаеб|уебок"
+          if grep -r -n -E -i "\b($BAD_WORDS)\b" . --include="*.md" --exclude-dir=".git" --exclude="personal-hotkeys.md"; then
+            echo "❌ Найдены запрещённые слова в Markdown-файлах"
+            exit 1
+          else
+            echo "✅ Все чисто"
+          fi
+
+  secrets-check:
+    name: 🔒 Secrets Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for secrets
+        run: |
+          SECRET_PATTERNS="password|secret|key|token|api_key|private_key|JWT|AUTH_TOKEN"
+          if grep -r -n -E -i "$SECRET_PATTERNS" . --include="*.md" --include="*.txt" --include="*.yml" --exclude-dir=".git" --exclude="secrets.md" --exclude-dir="саморазвитие/hacker101" --exclude=".github/workflows/pr-checks.yml" | grep -v ".gitignore"; then
+            echo "Проверь, что ты не закоммитил секреты!"
+            exit 1
+          else
+            echo "✅ Секретов не найдено"
+          fi
+
+  folder-structure:
+    name: 📂 Folder Structure Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required folders
+        run: |
+          REQUIRED=("шаблоны" "books" "саморазвитие" ".github" "github_project" "images")
+          MISSING=()
+          for dir in "${REQUIRED[@]}"; do
+            if [ ! -d "$dir" ]; then
+              MISSING+=("$dir")
+            fi
+          done
+          if [ ${#MISSING[@]} -ne 0 ]; then
+            echo "❌ Отсутствуют обязательные папки: ${MISSING[*]}"
+            exit 1
+          else
+            echo "✅ Все обязательные папки на месте"
+          fi
+
+  commitlint:
+    name: 📋 Commit Message Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check commit messages
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if ! echo "$COMMIT_MSG" | grep -qE "^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert)(\(.+\))?: .{1,100}"; then
+            echo "❌ Commit message не соответствует Conventional Commits:"
+            echo "$COMMIT_MSG"
+            echo ""
+            echo "Используй формат: type(scope): subject"
+            echo "Примеры: feat(саморазвитие): добавил конспект по SQL"
+            echo "         fix: исправил опечатку в README.md"
+            exit 1
+          else
+            echo "✅ Commit message соответствует Conventional Commits"
+          fi
