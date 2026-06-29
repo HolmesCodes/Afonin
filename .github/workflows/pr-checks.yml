@@ -55,7 +55,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check required folders
         run: |
-          REQUIRED=("шаблоны" "books" "саморазвитие" "github" "images")
+          REQUIRED=("шаблоны" "books" "саморазвитие" ".github" "github_project" "images")
           MISSING=()
           for dir in "${REQUIRED[@]}"; do
             if [ ! -d "$dir" ]; then
